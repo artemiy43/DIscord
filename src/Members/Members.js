@@ -1,7 +1,7 @@
 import './Members.css';
 import Member from '../Member/Member';
 import React from 'react';
-import imgNikita from '../images/Никита.jpg'
+// import imgNikita from '../images/Никита.jpg'
 import imgNikita1 from '../images/Никита1.jpg'
 import imgVera from '../images/Вера1.jpg'
 import imgSasha from '../images/Саша.jpg'

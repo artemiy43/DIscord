@@ -13,9 +13,9 @@ function Roles() {
             <li className='Roles__role'>Полубоженька</li>
             <li className='Roles__description'>Роль для людей с примерным поведением</li>
             <li>
-                <li className='Roles__role'>Кот помойный</li>
-                <li className='Roles__role'>Чмо</li>
-                <li className='Roles__role'>Кринжуля</li>
+                <div className='Roles__role white'>Кот помойный</div>
+                <div className='Roles__role'>Чмо</div>
+                <div className='Roles__role'>Кринжуля</div>
             </li>
             <li className='Roles__description big'>Роль для людей с плохим поведением</li>
             <li className='Roles__role'>Кибермансер</li>
