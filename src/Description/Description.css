@@ -1,0 +1,28 @@
+.Description {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Description__container {
+    width: 750px;
+    text-align: center;
+}
+
+.Description__title {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+.Description__text {
+    font-size: 20px;
+}
+
+.Description__addText {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 18px;
+}

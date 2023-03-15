@@ -1,0 +1,31 @@
+.Roles {
+    text-align: center;
+}
+
+.Roles__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    list-style-type: none;
+    border: 1px solid white;
+    padding: 0;
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+
+
+
+.Roles__role {
+    font-size: 24px;
+    border: 1px solid white;
+}
+
+.Roles__description {
+    font-size: 24px;
+    border: 1px solid white;
+}
+
+.big {
+    align-self: center;
+    border: none;
+}
