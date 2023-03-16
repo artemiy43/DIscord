@@ -16,9 +16,9 @@ import imgKirill3 from '../images/Кирилл3.jpg'
 
 import imgYarik from '../images/Ярик.png'
 
-import imgAlbert from '../images/Альберт1.png'
-import imgAlbert2 from '../images/Альберт.png'
-import imgAlbert3 from '../images/Альберт2.jpg'
+import imgFidan1 from '../images/Фидан1.jpg'
+import imgFidan2 from '../images/Фидан2.jpg'
+import imgFidan3 from '../images/Фидан4.jpg'
 
 import imgAnya from '../images/Аня.png'
 import imgAnya2 from '../images/Аня4.jpg'
@@ -84,9 +84,9 @@ function Members() {
     name: "Фидан",  
     nickname: 'Фиданчик',
     images: [
-      { id: 1, img: imgVanya3 },
-      { id: 2, img: imgVanya3 },
-      { id: 3, img: imgVanya3 }
+      { id: 1, img: imgFidan1 },
+      { id: 2, img: imgFidan2 },
+      { id: 3, img: imgFidan3 }
     ]          
   };
 
