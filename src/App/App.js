@@ -4,6 +4,7 @@ import Description from '../Description/Description';
 import Admins from '../Admins/Admins';
 import Footer from '../Footer/Footer';
 import Roles from '../Roles/Roles';
+import Members from '../Members/Members';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Description />
       <Roles />
       <Admins />
+      <Members />
       <Footer />
     </div>
   );
