@@ -1,7 +1,7 @@
 import './App.css';
 import Header from '../Header/Header';
 import Description from '../Description/Description';
-import Members from '../Members/Members';
+import Admins from '../Admins/Admins';
 import Footer from '../Footer/Footer';
 import Roles from '../Roles/Roles';
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Description />
       <Roles />
-      <Members />
+      <Admins />
       <Footer />
     </div>
   );

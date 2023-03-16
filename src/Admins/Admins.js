@@ -1,9 +1,9 @@
-import './Members.css';
+import './Admins.css';
 import Member from '../Member/Member';
 import React from 'react';
 
 import imgNikita1 from '../images/Никита1.jpg'
-import imgNikita2 from '../images/Никита2.jpg'
+import imgNikita2 from '../images/Никита4.png'
 import imgNikita3 from '../images/Никита3.jpg'
 
 import imgVera from '../images/Вера1.jpg'
@@ -19,14 +19,14 @@ import imgAlbert2 from '../images/Альберт.png'
 import imgAlbert3 from '../images/Альберт2.jpg'
 
 import imgAnya from '../images/Аня.png'
-import imgAnya2 from '../images/Аня2.jpg'
-import imgAnya3 from '../images/Аня3.jpg'
+import imgAnya2 from '../images/Аня4.jpg'
+import imgAnya3 from '../images/Аня5.jpg'
 
 import imgArtem from '../images/Я.png'
-import imgArtem2 from '../images/Я2.jpg'
+import imgArtem2 from '../images/Я4.jpg'
 import imgArtem3 from '../images/Я3.jpeg'
 
-function Members() {
+function Admins() {
 
   let Sasha = {     
     name: "Саша",  
@@ -95,10 +95,10 @@ function Members() {
   // ];
 
   return (
-    <div className='Members'>
-      <h1 className='Members__title animated' data-anijs="if:click, on: h1, do: bounce animated">Администрация "Боженька"</h1>
-      <p className='Members__text'>Элита канала с особой ролью "Боженька". Уполномочены следить за порядком и безопасностью.</p>
-      <div className="Members__container">
+    <div className='Admins'>
+      <h1>Администрация "Боженька"</h1>
+      <p>Элита канала с особой ролью "Боженька". Уполномочены следить за порядком и безопасностью.</p>
+      <div className="Admins__container">
         <Member name={Sasha.name} nickname={Sasha.nickname} images={Sasha.images}/>
         <Member name={Artem.name} nickname={Artem.nickname} images={Artem.images}/>
         <Member name={Vera.name} nickname={Vera.nickname} images={Vera.images}/>
@@ -110,4 +110,4 @@ function Members() {
   );
 }
 
-export default Members;
+export default Admins;

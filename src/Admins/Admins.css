@@ -1,9 +1,9 @@
-.Members {
+.Admins {
     text-align: center;
     background-color: #4c5057;
 }
 
-.Members__container {
+.Admins__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
