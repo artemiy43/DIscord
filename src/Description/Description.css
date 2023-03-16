@@ -1,4 +1,5 @@
 .Description {
+    padding-top: 30px;
     display: flex;
     width: 100%;
     align-items: center;
@@ -7,7 +8,7 @@
 }
 
 .Description__container {
-    width: 750px;
+    /* width: 750px; */
     text-align: center;
 }
 
@@ -26,4 +27,30 @@
     bottom: 0;
     left: 0;
     font-size: 18px;
+}
+
+@media (max-width: 1110px)
+{
+  .Description{
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Description__addText {
+    position: relative;
+    font-size: 18px;
+    }
+}
+
+@media (max-width: 760px)
+{
+    .Description__title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .Description__text {
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
 }

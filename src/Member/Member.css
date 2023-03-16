@@ -6,18 +6,18 @@
 }
 
 .Member__slide {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
 }
 
 .Member__img {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.black {
+/* .black {
     width: 100%;
     height: 400px;
     background-color: black;
@@ -33,4 +33,4 @@
     width: 100px;
     height: 100px;
     background-color: red;
-}
+} */

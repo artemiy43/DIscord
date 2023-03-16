@@ -6,3 +6,10 @@
     background-image: url(../images/Лого.jpg);
     background-repeat: no-repeat;
 }
+
+@media (max-width: 1110px)
+{
+  .Logo{
+    margin: 0 auto;
+  }
+}

@@ -6,7 +6,7 @@ function Member(props) {
   return (
     <div className="Member">
       {/* <img className='Member__img' alt='picturee' src={props.img}></img> */}
-      <Carousel showThumbs={false} showStatus={false}>
+      <Carousel showThumbs={false} showStatus={false} width={320}>
           {props.images.map(item => (
             <img key={item.id} className='Member__img' alt='picturee' src={item.img}></img>
           ))}

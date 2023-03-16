@@ -1,5 +1,5 @@
 import './App.css';
-import Header from '../Header/Header';
+// import Header from '../Header/Header';
 import Description from '../Description/Description';
 import Admins from '../Admins/Admins';
 import Footer from '../Footer/Footer';
@@ -8,7 +8,7 @@ import Members from '../Members/Members';
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       <Description />
       <Roles />
       <Admins />
