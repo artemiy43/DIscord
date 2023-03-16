@@ -3,7 +3,7 @@ import Member from '../Member/Member';
 import React from 'react';
 
 import imgNikita1 from '../images/Никита1.jpg'
-import imgNikita2 from '../images/Никита4.png'
+import imgNikita2 from '../images/Никита6.jpg'
 import imgNikita3 from '../images/Никита3.jpg'
 
 import imgVera from '../images/Вера1.jpg'
@@ -19,7 +19,7 @@ import imgAlbert2 from '../images/Альберт.png'
 import imgAlbert3 from '../images/Альберт2.jpg'
 
 import imgAnya from '../images/Аня.png'
-import imgAnya2 from '../images/Аня4.jpg'
+import imgAnya2 from '../images/Аня6.gif'
 import imgAnya3 from '../images/Аня5.jpg'
 
 import imgArtem from '../images/Я.png'
