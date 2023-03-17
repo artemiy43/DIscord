@@ -7,8 +7,8 @@ import imgVanya2 from '../images/Ваня2.png'
 import imgVanya3 from '../images/Ваня3.jpg'
 
 import imgSonya1 from '../images/Соня1.jpg'
-import imgSonya2 from '../images/Соня2.jpg'
-import imgSonya3 from '../images/Соня4.png'
+import imgSonya2 from '../images/Соня5.png'
+import imgSonya3 from '../images/Соня4.PNG'
 
 import imgKirill1 from '../images/Кирилл1.jpg'
 import imgKirill2 from '../images/Кирилл2.jpg'
