@@ -8,25 +8,25 @@ import imgVanya3 from '../images/Ваня3.jpg'
 
 import imgSonya1 from '../images/Соня1.jpg'
 import imgSonya2 from '../images/Соня2.jpg'
-import imgSonya3 from '../images/Соня4.PNG'
+import imgSonya3 from '../images/Соня4.png'
 
 import imgKirill1 from '../images/Кирилл1.jpg'
 import imgKirill2 from '../images/Кирилл2.jpg'
 import imgKirill3 from '../images/Кирилл3.jpg'
 
-import imgYarik from '../images/Ярик.png'
+// import imgYarik from '../images/Ярик.png'
 
 import imgFidan1 from '../images/Фидан1.jpg'
 import imgFidan2 from '../images/Фидан2.jpg'
 import imgFidan3 from '../images/Фидан4.jpg'
 
-import imgAnya from '../images/Аня.png'
-import imgAnya2 from '../images/Аня4.jpg'
-import imgAnya3 from '../images/Аня5.jpg'
+import imgGekk1 from '../images/Гекк1.jpg'
+import imgGekk2 from '../images/Гекк2.jpg'
+import imgGekk3 from '../images/Гекк3.jpg'
 
-import imgArtem from '../images/Я.png'
-import imgArtem2 from '../images/Я4.jpg'
-import imgArtem3 from '../images/Я3.jpeg'
+import imgYarik1 from '../images/Ярик1.jpg'
+import imgYarik2 from '../images/Ярик2.jpg'
+import imgYarik3 from '../images/Ярик3.jpg'
 
 function Members() {
 
@@ -54,9 +54,9 @@ function Members() {
     name: "Антон Гекк",  
     nickname: 'Кар-Карыч',
     images: [
-      { id: 1, img: imgVanya3},
-      { id: 2, img: imgVanya3 },
-      { id: 3, img: imgVanya3 }
+      { id: 1, img: imgGekk1},
+      { id: 2, img: imgGekk2 },
+      { id: 3, img: imgGekk3 }
     ]         
   };
 
@@ -64,9 +64,9 @@ function Members() {
     name: "Ярик",  
     nickname: 'Matsey',
     images: [
-      { id: 1, img: imgYarik },
-      { id: 2, img: imgYarik },
-      { id: 3, img: imgYarik }
+      { id: 1, img: imgYarik1 },
+      { id: 2, img: imgYarik2 },
+      { id: 3, img: imgYarik3 }
     ]          
   };
 

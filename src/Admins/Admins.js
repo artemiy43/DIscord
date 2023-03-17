@@ -22,8 +22,8 @@ import imgAnya from '../images/Аня.png'
 import imgAnya2 from '../images/Аня6.gif'
 import imgAnya3 from '../images/Аня5.jpg'
 
-import imgArtem from '../images/Я.png'
-import imgArtem2 from '../images/Я4.jpg'
+import imgArtem from '../images/Я4.jpg'
+import imgArtem2 from '../images/Я.png'
 import imgArtem3 from '../images/Я3.jpeg'
 
 function Admins() {
