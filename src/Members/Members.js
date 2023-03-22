@@ -14,7 +14,9 @@ import imgKirill1 from '../images/Кирилл1.jpg'
 import imgKirill2 from '../images/Кирилл2.jpg'
 import imgKirill3 from '../images/Кирилл3.jpg'
 
-// import imgYarik from '../images/Ярик.png'
+import imgIvan1 from '../images/Иван1.jpg'
+import imgIvan2 from '../images/Иван2.jpg'
+import imgIvan3 from '../images/Иван3.jpg'
 
 import imgFidan1 from '../images/Фидан1.jpg'
 import imgFidan2 from '../images/Фидан2.jpg'
@@ -37,6 +39,16 @@ function Members() {
       { id: 1, img: imgSonya1 },
       { id: 2, img: imgSonya2 },
       { id: 3, img: imgSonya3 }
+    ]   
+  };
+
+  let Ivan = {     
+    name: "Ваня",  
+    nickname: 'Чебупелька',
+    images: [
+      { id: 1, img: imgIvan1 },
+      { id: 2, img: imgIvan2 },
+      { id: 3, img: imgIvan3 }
     ]   
   };
 
@@ -107,6 +119,7 @@ function Members() {
         <Member name={Vanya.name} nickname={Vanya.nickname} images={Vanya.images}/>
         <Member name={Kirill.name} nickname={Kirill.nickname} images={Kirill.images}/>
         <Member name={Fidan.name} nickname={Fidan.nickname} images={Fidan.images}/>
+        <Member name={Ivan.name} nickname={Ivan.nickname} images={Ivan.images}/>
       </div>
     </div>
   );
