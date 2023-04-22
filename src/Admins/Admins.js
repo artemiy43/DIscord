@@ -21,6 +21,7 @@ import imgAlbert3 from '../images/Альберт2.jpg'
 import imgAnya from '../images/Аня.png'
 import imgAnya2 from '../images/Аня6.gif'
 import imgAnya3 from '../images/Аня5.jpg'
+import imgAnya4 from '../images/Аня7.jpg'
 
 import imgArtem from '../images/Я4.jpg'
 import imgArtem2 from '../images/Я.png'
@@ -82,9 +83,10 @@ function Admins() {
     name: "Аня",  
     nickname: 'маленький попуск',
     images: [
-      { id: 1, img: imgAnya },
-      { id: 2, img: imgAnya2 },
-      { id: 3, img: imgAnya3 }
+      { id: 1, img: imgAnya4 },
+      { id: 2, img: imgAnya },
+      { id: 3, img: imgAnya2 },
+      { id: 4, img: imgAnya3 }
     ]          
   };
 
